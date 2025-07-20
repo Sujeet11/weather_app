@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.sqlite3
+*.log
+
+# Environments
+env/
+venv/
+ENV/
+.venv/
+.Python
+
+# Django
+staticfiles/
+media/
+db.sqlite3
+
+# VSCode or PyCharm
+.vscode/
+.idea/
+
+# macOS and Windows
+.DS_Store
+Thumbs.db
+
+# Git
+*.swp
+*.bak
+*.tmp
+*.orig
+
+# Add this to ignore your secret config
+.env
