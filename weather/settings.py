@@ -26,7 +26,7 @@ SECRET_KEY = config("SECRET_KEY")
 DEBUG = config("DEBUG", default=False, cast=bool)
 OPENWEATHER_API_KEY = config("OPENWEATHER_API_KEY")
 
-ALLOWED_HOSTS = ['https://weather-app-jx1d.onrender.com']
+ALLOWED_HOSTS = ['weather-app-jx1d.onrender.com']
 
 
 # Application definition
